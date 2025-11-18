@@ -117,3 +117,8 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+.background-header {
+  background: linear-gradient(rgba(10, 10, 10, 0.6), rgb(5 80 179)) center center / cover, 
+            repeating-linear-gradient(0deg, transparent, transparent 2px, black 3px, black 3px), 
+            url('/src/assets/photo-1506399558188-acca6f8cbf41.jpg') center center / cover;
+}

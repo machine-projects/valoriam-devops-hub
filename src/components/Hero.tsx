@@ -10,7 +10,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-tech-blue-dark via-primary to-tech-blue-light">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-tech-blue-dark via-primary to-tech-blue-light background-header">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl animate-pulse"></div>
@@ -18,8 +18,11 @@ export const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-          <div className="flex justify-center mb-8">
+        <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">
+          <div className="flex justi
+          
+          
+          fy-center mb-4">
             <img src={valoriamLogo} alt="Valoriam" className="h-24 md:h-32 w-auto" />
           </div>
           
