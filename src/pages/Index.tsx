@@ -4,6 +4,7 @@ import { About } from "@/components/About";
 import { Clients } from "@/components/Clients";
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Clients />
       <CTA />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };

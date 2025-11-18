@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import valoriamLogo from "@/assets/valoriam_logo.png";
 
 export const Hero = () => {
   return (
@@ -12,6 +13,10 @@ export const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
+          <div className="flex justify-center mb-8">
+            <img src={valoriamLogo} alt="Valoriam" className="h-24 md:h-32 w-auto" />
+          </div>
+          
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
             Transforme sua TI com{" "}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">
@@ -39,22 +44,6 @@ export const Hero = () => {
             >
               Nossos Serviços
             </Button>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 pt-12 max-w-3xl mx-auto">
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">10+</div>
-              <div className="text-blue-100 text-sm md:text-base">Anos de Experiência</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">50+</div>
-              <div className="text-blue-100 text-sm md:text-base">Projetos Entregues</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">98%</div>
-              <div className="text-blue-100 text-sm md:text-base">Satisfação</div>
-            </div>
           </div>
         </div>
       </div>
