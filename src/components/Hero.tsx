@@ -3,6 +3,12 @@ import { ArrowRight } from "lucide-react";
 import valoriamLogo from "@/assets/valoriam_logo.png";
 
 export const Hero = () => {
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "5567991465510";
+    const message = encodeURIComponent("Olá! Vim através do site da Valoriam e gostaria de falar com um especialista.");
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+  };
+
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-tech-blue-dark via-primary to-tech-blue-light">
       {/* Animated background elements */}
@@ -32,6 +38,7 @@ export const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Button 
               size="lg" 
+              onClick={handleWhatsAppClick}
               className="bg-white text-primary hover:bg-blue-50 font-semibold text-lg px-8 py-6 shadow-xl hover:shadow-2xl transition-all"
             >
               Fale com Especialista
@@ -39,7 +46,8 @@ export const Hero = () => {
             </Button>
             <Button 
               size="lg" 
-              variant="outline" 
+              variant="outline"
+              onClick={handleWhatsAppClick}
               className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold text-lg px-8 py-6 bg-transparent backdrop-blur-sm"
             >
               Nossos Serviços

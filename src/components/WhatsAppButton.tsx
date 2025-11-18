@@ -1,10 +1,11 @@
 import { MessageCircle } from "lucide-react";
 
 export const WhatsAppButton = () => {
-  const phoneNumber = "5567991465510"; // Formato internacional
+  const phoneNumber = "5567991465510";
 
   const handleWhatsAppClick = () => {
-    window.open(`https://wa.me/${phoneNumber}`, "_blank");
+    const message = encodeURIComponent("Olá! Vim através do site da Valoriam e gostaria de mais informações.");
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
 
   return (
