@@ -19,10 +19,7 @@ export const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">
-          <div className="flex justi
-          
-          
-          fy-center mb-4">
+          <div className="flex justify-center mb-4">
             <img src={valoriamLogo} alt="Valoriam" className="h-24 md:h-32 w-auto" />
           </div>
           
