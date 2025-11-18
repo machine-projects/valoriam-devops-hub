@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone } from "lucide-react";
-
+const handleWhatsAppClick = (phoneNumber:string) => {
+    const message = encodeURIComponent("Olá! Vim através do site da Valoriam e gostaria de mais informações.");
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+  };
 export const CTA = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-primary via-accent to-tech-blue-light relative overflow-hidden">
@@ -30,6 +33,7 @@ export const CTA = () => {
             <Button
               size="lg"
               variant="outline"
+              onClick={() => handleWhatsAppClick("5567991465510")}
               className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold text-lg px-8 py-6 bg-transparent backdrop-blur-sm"
             >
               <Phone className="mr-2 h-5 w-5" />

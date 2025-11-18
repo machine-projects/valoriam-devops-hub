@@ -50,7 +50,8 @@ export const Clients = () => {
 
         <div className="mt-16 text-center">
           <p className="text-lg text-muted-foreground">
-            Atendemos empresas de diversos segmentos e órgãos públicos
+           Assim como fizemos para outros, levamos a maturidade em DevOps para a sua operação. Automatizamos processos, integramos times e garantimos que seus softwares sejam entregues com mais velocidade, segurança e confiabilidade.
+            Do desenvolvimento à infraestrutura híbrida, nós otimizamos o ciclo completo.
           </p>
         </div>
       </div>

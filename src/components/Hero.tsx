@@ -45,12 +45,12 @@ export const Hero = () => {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
+              asChild
               size="lg" 
               variant="outline"
-              onClick={handleWhatsAppClick}
               className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold text-lg px-8 py-6 bg-transparent backdrop-blur-sm"
             >
-              Nossos Serviços
+              <a href="#services">Nossos Serviços</a>
             </Button>
           </div>
         </div>

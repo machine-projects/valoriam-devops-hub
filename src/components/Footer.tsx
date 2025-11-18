@@ -1,5 +1,5 @@
 import { Linkedin, Mail, MapPin } from "lucide-react";
-
+ 
 export const Footer = () => {
   return (
     <footer className="bg-tech-gray text-white py-12">
@@ -34,12 +34,12 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>São Paulo, SP</span>
+                <span>Campo Grande, MS</span>
               </div>
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <Linkedin className="h-4 w-4" />
                 <span>linkedin.com/company/valoriam</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
