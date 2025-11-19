@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 const clients = [
   {
     name: "Better Benefícios",
-    description: "Modernização da infraestrutura e implementação de pipelines DevOps",
+    description: "Desenvolvimento de sofware serveless e automação de infraestrutura",
   },
   {
     name: "Asilo São João Bosco",
